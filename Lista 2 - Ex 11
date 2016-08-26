@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+    // declara variavel
+    double n;
+    printf("Digite n: ");
+    scanf("%lf", &n);
+    // >= 0 : sqrt (n);
+    if (n >= 0){
+            printf("%lf\n", (sqrt(n)));
+    // < 0 : pow (n, 2);
+    // a forma de declarar double é %lf >>>LongFloat
+    } else {
+            printf("%.0lf\n", (pow(n,2.0)));
+    }
+return 0;
+}
