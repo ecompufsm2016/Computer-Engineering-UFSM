@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+    int A, B, C, TOTAL;
+    printf("Digite numero 1:");
+    scanf("%d", &A);
+    printf("Digite numero 2: ");
+    scanf("%d", &B);
+    printf("Digite numero 3: ");
+    scanf("%d", &C);
+
+    if (A>B && B>C && A>C){
+    aux = A;
+    A = B;
+    B = aux;
+    }
+    if {
+    aux = A;
+    A    
+        
+    
+        
+    }
+
+
+    printf("%d Resultado: \n", TOTAL);
+
+}
+
+return 0;
+}
+
