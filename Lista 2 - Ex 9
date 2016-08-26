@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    // declara variavel
+    int numero;
+    printf("Digite o numero: ");
+    // leitura de número do usuário
+    scanf("%i", &numero);
+    if ((numero % 3)==0) {
+        printf("%d e multiplo de 3!\n", numero);
+        }
+    else
+        printf("%d nao e multiplo de 3!\n", numero);
+return 0;
+}
